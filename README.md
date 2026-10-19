@@ -1,238 +1,266 @@
-## Cell-to-Cell Communication: Pituitary Gonadotroph Signaling to Ovarian Granulosa Cells
+# Cell-to-Cell Communication: Pituitary Gonadotroph Signaling to Ovarian Granulosa Cells
 
 ## Biological Question
 
 How does a pituitary gonadotroph communicate with ovarian granulosa cells through Follicle-Stimulating Hormone (FSH) signaling to regulate ovarian follicle development?
 
+* * *
 
+# Chosen Sender Cell and Biological Context
 
+The selected sender cell is the **Pituitary Gonadotroph**, an endocrine cell found in the anterior pituitary gland. Pituitary gonadotrophs produce reproductive hormones that regulate ovarian and testicular function. In this communication model, the biological context is female reproductive physiology, specifically ovarian follicle growth and maturation. These cells communicate with ovarian target cells through endocrine signaling by releasing hormones into the bloodstream.
 
-## 1. Chosen Sender Cell and Biological Context
+* * *
 
-The chosen sender cell is the pituitary gonadotroph, an endocrine cell located in the anterior pituitary gland. Pituitary gonadotrophs produce and secrete reproductive hormones that regulate gonadal function.
+# Candidate Ligand and Evidence for Sender-Cell Expression
 
-The biological context of this study is female reproductive physiology, specifically ovarian follicle development and maturation. Communication occurs through endocrine signaling, in which hormones released by the pituitary travel through the bloodstream to target cells in the ovary.
+The candidate ligand identified is **Follicle-Stimulating Hormone (FSH)**.
 
-## 2. Candidate Ligand and Evidence for Sender-Cell Expression
+FSH is produced by pituitary gonadotroph cells and is essential for regulating ovarian follicular growth and development. The **FSHB** gene encodes the beta subunit of Follicle-Stimulating Hormone and serves as a marker of gonadotroph function.
 
-The candidate signaling molecule is Follicle-Stimulating Hormone (FSH).
+### Evidence
 
-FSH is synthesized and secreted by pituitary gonadotrophs. The FSHB gene encodes the beta subunit of FSH and serves as a marker associated with gonadotroph function.
+Human Protein Atlas and UniProt indicate expression and function of the FSHB gene in pituitary endocrine cells. FSH is a glycoprotein hormone involved in reproductive regulation and follicle development.
 
-Evidence
+**Ligand:** Follicle-Stimulating Hormone (FSH)
 
-* Human Protein Atlas: Provides gene-expression information for FSHB in pituitary tissue.
-* UniProt: Describes FSH as a glycoprotein hormone involved in reproductive regulation, follicular development, and gonadal function.
+**Gene:** FSHB
 
-Ligand: Follicle-Stimulating Hormone (FSH)
-Gene: FSHB
+* * *
 
-Screenshot: FSHB Expression
+# Receptor and Receiver Cell with Supporting Evidence
 
+The receptor selected is the **Follicle-Stimulating Hormone Receptor (FSHR)**.
 
-## 3. Receptor and Receiver Cell with Supporting Evidence
+The receiver cell is the **Ovarian Granulosa Cell**. Granulosa cells express FSHR and respond directly to FSH stimulation. Activation of FSHR promotes follicular growth, estrogen production, and maturation of ovarian follicles.
 
-The selected receptor is the Follicle-Stimulating Hormone Receptor (FSHR).
+### Evidence
 
-The receiver cell is the ovarian granulosa cell. Granulosa cells express FSHR and respond to circulating FSH. Activation of FSHR promotes granulosa-cell proliferation, estrogen production, and ovarian follicle development.
+Human Protein Atlas data support expression of FSHR in ovarian tissue. Granulosa cells are recognized biological targets of FSH signaling.
 
-Evidence
+**Receptor:** FSHR
 
-Human Protein Atlas data provide information about FSHR expression in ovarian tissue, supporting the selection of ovarian granulosa cells as biologically appropriate receiver cells.
+**Receiver Cell:** Ovarian Granulosa Cell
 
-Receptor: FSHR
-Receiver Cell: Ovarian Granulosa Cell
+* * *
 
-Screenshot: FSHR Expression
+# Type of Cell-to-Cell Signaling
 
+This communication pathway represents **Endocrine Signaling** because FSH is released by pituitary gonadotrophs into the bloodstream and acts on distant target cells in the ovary.
 
-## 4. Type of Cell-to-Cell Signaling
+* * *
 
-This pathway represents endocrine signaling because FSH is released by pituitary gonadotrophs into the bloodstream and travels to distant target cells in the ovary.
+# OmniPath Findings
 
-At the target cell, FSH binds to FSHR on the granulosa-cell membrane, initiating intracellular signaling that regulates follicular development and estrogen synthesis.
+OmniPath identified a ligand-receptor interaction between **FSHB** and **FSHR**. The interaction is supported by multiple databases, including CellCall, CellChatDB, and other curated signaling resources.
 
-## 5. OmniPath Findings
+This finding supports the proposed endocrine communication pathway in which FSH produced by pituitary gonadotrophs binds to FSHR expressed on ovarian granulosa cells.
 
-OmniPath was used to investigate the proposed ligand–receptor interaction between FSH and FSHR.
+### Insert OmniPath Screenshot Below
 
-The interaction was examined using curated signaling resources, including CellCall and CellChatDB, where available. These resources help identify and assess candidate molecular interactions involved in cell-to-cell communication.
+images/03\_omnipath\_evidence.png
 
-The findings support the proposed endocrine communication model between pituitary gonadotrophs and ovarian granulosa cells. Database evidence should be interpreted alongside the underlying interaction records and their supporting references.
+* * *
 
-Screenshot: OmniPath Evidence
+# STRING Network Interpretation
 
-
-## 6. STRING Network Interpretation
-
-A STRING protein interaction network was generated to investigate proteins associated with FSHR-mediated intracellular signaling.
+A STRING protein interaction network was generated using FSHR and associated signaling proteins.
 
 ## Key Proteins
 
-Protein	Biological Significance
-FSHR	Receives the extracellular FSH signal and activates intracellular signaling.
-GNAS	Encodes the stimulatory G-protein alpha subunit involved in activating adenylyl cyclase.
-ADCY5	Encodes an adenylyl cyclase isoform that contributes to cyclic AMP (cAMP) production.
-PRKACA	Encodes the catalytic alpha subunit of Protein Kinase A (PKA).
-CREB1	Encodes a transcription factor involved in regulating gene expression.
-AKT1	Encodes a protein kinase involved in cell survival, growth, and metabolism.
-MAPK1	Encodes ERK2, a kinase involved in cell proliferation and differentiation.
+-   FSHR
+-   GNAS
+-   ADCY5
+-   PRKACA
+-   CREB1
+-   AKT1
+-   MAPK1
 
-Enriched Pathway
+## Functional Significance
 
-The cAMP signaling pathway is a relevant pathway associated with FSHR activation.
+### FSHR
 
-Following FSH binding, FSHR activates a G-protein-mediated signaling cascade that can stimulate adenylyl cyclase activity and increase intracellular cAMP. cAMP activates Protein Kinase A, which regulates downstream proteins and transcription factors involved in granulosa-cell function.
+Receives the extracellular FSH signal.
 
-The precise contribution of individual adenylyl cyclase isoforms and downstream proteins should be confirmed using the specific interaction and enrichment results.
+### GNAS
 
-Screenshot: STRING Network
+Couples receptor activation to intracellular signaling.
 
-Screenshot: STRING Enrichment
+### ADCY5
 
-## 7. IntAct Validation
+Produces cyclic AMP (cAMP).
 
-An interaction associated with downstream Protein Kinase A signaling was examined using IntAct.
+### PRKACA
 
-Interaction Details
+Mediates Protein Kinase A signaling.
 
-* Interaction examined: PRKACA–PRKAR1A
-* Organism: Homo sapiens
-* Detection method: Anti-tag co-immunoprecipitation (anti-tag coIP)
-* Interaction type: Direct interaction, as reported in the selected record
-* Publication: PMID: 24855271
+### CREB1
 
-Interpretation
+Regulates transcription of genes involved in follicular development.
 
-IntAct reports an interaction between PRKACA and PRKAR1A in humans, supported by experimental evidence and a published study. PRKACA encodes the catalytic alpha subunit of Protein Kinase A, whereas PRKAR1A encodes its regulatory subunit type I alpha.
+### AKT1
 
-This interaction is relevant to understanding the regulation of PKA signaling downstream of FSHR. However, evidence for an interaction between these proteins does not, by itself, establish every step of the proposed FSH signaling pathway.
+Promotes cell survival and growth.
 
-Screenshot: IntAct Evidence
+### MAPK1
 
+Regulates cell proliferation and differentiation.
 
+## Enriched Pathway
 
+The most relevant enriched pathway identified in STRING was the **cAMP signaling pathway**, which is activated downstream of FSHR and contributes to follicular maturation and estrogen synthesis.
 
-## 8. Answers to Required Questions
+### Insert STRING Network Screenshot Below
 
-1. What sender cell did you choose, and in what tissue or biological context does it act?
+images/05\_string\_network.png
 
-I selected the pituitary gonadotroph as the sender cell. It is located in the anterior pituitary gland and regulates reproductive function through endocrine hormone secretion. The biological context examined in this study is ovarian follicle development and maturation.
+### Insert STRING Enrichment Screenshot Below
 
-2. What signaling molecule did you identify, and what evidence supports its production or presentation by the sender cell?
+images/06\_string\_enrichment.png
 
-The signaling molecule identified was Follicle-Stimulating Hormone (FSH). Expression of the FSHB gene in pituitary tissue supports the production of the FSH beta subunit by pituitary gonadotrophs. Together with the known biological function of FSH, this supports its selection as the candidate signaling molecule.
+* * *
 
-3. What receptor receives the signal, and which receiver cell did you select?
+# IntAct Validation
 
-The receptor is FSHR, or Follicle-Stimulating Hormone Receptor. The selected receiver cell is the ovarian granulosa cell because these cells express FSHR and respond to FSH stimulation.
+A protein interaction associated with the FSHR signaling pathway was examined using IntAct.
 
-4. What type of cell-to-cell signaling is represented: paracrine, endocrine, autocrine, or contact dependent?
+### Interaction Examined
 
-This pathway represents endocrine signaling because FSH travels through the bloodstream from the anterior pituitary gland to target cells in the ovary.
+PRKACA - PRKAR1A
 
-5. Which proteins in your STRING network appear most relevant to the receptor-associated response? Explain briefly.
+### Organism
 
-GNAS, ADCY5, PRKACA, CREB1, AKT1, and MAPK1 are relevant proteins to investigate because they are associated with intracellular signaling, cAMP production, transcriptional regulation, cell survival, and proliferation. Their individual roles in this model should be interpreted according to the network evidence and established biological functions.
+Homo sapiens
 
-6. What enriched pathway or biological process is consistent with your proposed mechanism?
+### Detection Method
 
-The cAMP signaling pathway is consistent with the proposed mechanism. FSHR activation can stimulate G-protein-mediated adenylyl cyclase activity, increasing intracellular cAMP and activating Protein Kinase A. These events contribute to the regulation of gene expression and granulosa-cell function.
+Anti-tag Co-Immunoprecipitation (anti-tag coIP)
 
-7. What did IntAct show for the molecular interaction you examined? What type of evidence was reported?
+### Interaction Type
 
-IntAct reported an interaction between PRKACA and PRKAR1A in Homo sapiens. The selected record lists anti-tag co-immunoprecipitation as the detection method and PMID: 24855271 as the publication reference.
+Direct Interaction
 
-8. Which parts of your final model are strongly supported, and which parts remain an inference?
+### Supporting Publication
 
-Strongly supported components
+PMID: 24855271
 
-* Pituitary gonadotrophs produce and secrete FSH.
-* FSH acts on FSHR-expressing target cells, including ovarian granulosa cells.
-* FSHR activation can stimulate cAMP-dependent intracellular signaling.
-* PRKACA and PRKAR1A are associated with Protein Kinase A regulation.
-* FSH signaling contributes to granulosa-cell function and ovarian follicle development.
+### Interpretation
 
-Components requiring additional evidence or representing inference
+The interaction between PRKACA and PRKAR1A provides experimental evidence supporting the Protein Kinase A signaling pathway. Since PKA functions downstream of FSHR-mediated cAMP production, this interaction strengthens the proposed signaling mechanism leading to granulosa cell activation.
 
-* The exact ligand–receptor database records supporting the proposed interaction.
-* The specific contribution of ADCY5 to the pathway in ovarian granulosa cells.
-* The precise order and directness of downstream interactions involving CREB1, AKT1, and MAPK1.
-* The extent to which each protein in the STRING network participates in the response under the specific biological conditions being studied.
+### Insert IntAct Screenshot Below
 
-STRING associations and pathway enrichment provide supporting context but do not necessarily establish direct physical interactions or a definitive sequence of signaling events.
+images/07\_intact\_evidence.png
 
-9. What cellular response is expected in the receiver cell, and why?
+* * *
 
-The expected cellular responses include granulosa-cell proliferation, increased estrogen production, and ovarian follicle development. These responses occur because FSHR activation stimulates intracellular pathways that regulate cell growth, differentiation, and hormone synthesis.
+# Questions to Answer
 
+## 1\. What sender cell did you choose, and in what tissue or biological context does it act?
 
-## 9. Final Cell-to-Cell Communication Model
+I selected the Pituitary Gonadotroph as the sender cell. It is located in the anterior pituitary gland and functions in reproductive regulation through hormone secretion. The biological context is ovarian follicle development.
 
-The proposed pathway can be summarized as follows:
+## 2\. What signaling molecule did you identify, and what evidence supports its production by the sender cell?
 
-PITUITARY GONADOTROPH
-          |
-          | Secretes FSH
-          v
-      BLOODSTREAM
-          |
-          | Endocrine transport
-          v
-OVARIAN GRANULOSA CELL
-          |
-          | FSH binds to FSHR
-          v
+The signaling molecule is Follicle-Stimulating Hormone (FSH). Expression of the FSHB gene in pituitary gonadotroph cells provides evidence for FSH production.
+
+## 3\. What receptor receives the signal, and which receiver cell did you select?
+
+The receptor is FSHR, and the receiver cell is the ovarian granulosa cell because granulosa cells express FSHR and respond to FSH stimulation.
+
+## 4\. What type of cell-to-cell signaling is represented?
+
+This pathway represents endocrine signaling because the signal travels through the bloodstream to a distant target organ.
+
+## 5\. Which proteins in your STRING network appear most relevant to the receptor-associated response?
+
+GNAS, ADCY5, PRKACA, CREB1, AKT1, and MAPK1 are the most relevant proteins because they transmit signals downstream of FSHR activation and regulate growth, survival, and gene expression.
+
+## 6\. What enriched pathway or biological process is consistent with your proposed mechanism?
+
+The cAMP signaling pathway is most consistent with the proposed mechanism because FSHR activates adenylate cyclase, resulting in cAMP production and activation of Protein Kinase A signaling.
+
+## 7\. What did IntAct show for the molecular interaction you examined? What type of evidence was reported?
+
+IntAct identified a direct interaction between PRKACA and PRKAR1A in Homo sapiens. The interaction was supported by anti-tag co-immunoprecipitation experimental evidence and a published study (PMID: 24855271).
+
+## 8\. Which parts of your final model are strongly supported, and which parts remain an inference?
+
+Strongly supported components include:
+
+-   Production of FSH by pituitary gonadotrophs
+-   Binding of FSH to FSHR
+-   Expression of FSHR in granulosa cells
+-   Activation of cAMP signaling
+
+Inferential components include some downstream signaling relationships among AKT1, MAPK1, CREB1, and other proteins identified through network analysis.
+
+## 9\. What cellular response is expected in the receiver cell, and why?
+
+The expected response is granulosa-cell proliferation, estrogen synthesis, and ovarian follicular maturation because activation of FSHR stimulates intracellular pathways involved in growth, differentiation, and hormone production.
+
+* * *
+
+# Final Cell-to-Cell Communication Model
+
+```plaintext
+Pituitary Gonadotroph
+          │
+          ▼
+         FSH
+          │
+     Bloodstream
+          │
+          ▼
+Ovarian Granulosa Cell
+          │
          FSHR
-          |
-          v
+          │
+          ▼
          GNAS
-          |
-          v
-  ADENYLYL CYCLASE
-          |
-          v
+          │
+          ▼
+        ADCY5
+          │
+          ▼
          cAMP
-          |
-          v
-    PROTEIN KINASE A
-       (PRKACA)
-          |
-          v
-    DOWNSTREAM SIGNALING
-    /        |         \
- CREB1      AKT1      MAPK1
-    \        |         /
-     REGULATION OF CELLULAR
-           RESPONSES
-               |
-               v
-  GRANULOSA-CELL PROLIFERATION
-       ESTROGEN PRODUCTION
-      FOLLICULAR DEVELOPMENT
+          │
+          ▼
+       PRKACA
+          │
+          ▼
+        CREB1
+       /      \
+    AKT1     MAPK1
+       \      /
+          ▼
+Follicular Development
+Estrogen Production
+Granulosa Cell Proliferation
+```
 
+* * *
 
-## 10. Interpretation
+# Interpretation (196 Words)
 
-This model describes endocrine communication between a pituitary gonadotroph and an ovarian granulosa cell. The sender cell, located in the anterior pituitary gland, synthesizes and secretes Follicle-Stimulating Hormone (FSH), which travels through the bloodstream to the ovary. There, FSH binds to the Follicle-Stimulating Hormone Receptor (FSHR) expressed on granulosa cells.
+This model describes endocrine communication between a pituitary gonadotroph and an ovarian granulosa cell. The sender cell, the pituitary gonadotroph, synthesizes and secretes Follicle-Stimulating Hormone (FSH), a hormone involved in regulating female reproductive function. After secretion, FSH enters the bloodstream and travels to the ovary, where it binds to the Follicle-Stimulating Hormone Receptor (FSHR) expressed on granulosa cells. Receptor activation initiates intracellular signaling through G proteins, particularly GNAS, which activates adenylate cyclase and increases cyclic AMP (cAMP) production. Elevated cAMP activates Protein Kinase A (PRKACA), resulting in phosphorylation of downstream transcription factors such as CREB1. Additional signaling proteins including AKT1 and MAPK1 contribute to cellular survival, proliferation, and differentiation. These signaling pathways collectively promote granulosa-cell growth, estrogen synthesis, and maturation of ovarian follicles. OmniPath supports the ligand-receptor interaction between FSH and FSHR, while STRING identifies functionally related proteins associated with downstream signaling events. IntAct provides experimental evidence supporting protein interactions within the Protein Kinase A pathway. Overall, the evidence supports an endocrine signaling model in which pituitary gonadotrophs regulate ovarian follicle development through FSH-mediated activation of FSHR and downstream intracellular signaling pathways.
 
-Receptor activation stimulates G-protein-mediated signaling involving GNAS, which can activate adenylyl cyclase and increase cyclic AMP (cAMP) production. Elevated cAMP activates Protein Kinase A, whose catalytic subunit is encoded by PRKACA. Downstream signaling can regulate transcription factors such as CREB1, while additional pathways involving AKT1 and MAPK1 contribute to cell survival, proliferation, and differentiation.
+* * *
 
-Together, these mechanisms support granulosa-cell function, estrogen synthesis, and ovarian follicle development. OmniPath can provide evidence for candidate ligand–receptor interactions, while STRING identifies functionally associated proteins and enriched pathways. IntAct provides experimental evidence for selected molecular interactions, including the interaction examined between PRKACA and PRKAR1A. Overall, the evidence supports an endocrine signaling model in which pituitary gonadotrophs regulate ovarian follicle development through FSH-mediated activation of FSHR and downstream intracellular signaling. Some individual protein relationships in the proposed pathway remain to be confirmed in the specific cellular context.
+# References and Database Links
 
+Human Protein Atlas
+https://www.proteinatlas.org/
 
+UniProt
+https://www.uniprot.org/
 
-## 11. References and Database Links
+OmniPath Explorer
+https://explore.omnipathdb.org/
 
-1. Human Protein Atlas
-    https://www.proteinatlas.org/
-2. UniProt
-    https://www.uniprot.org/
-3. OmniPath
-    https://omnipathdb.org/
-4. STRING
-    https://string-db.org/
-5. IntAct Molecular Interaction Database
-    https://www.ebi.ac.uk/intact/
-6. PubMed — PMID: 24855271
-    https://pubmed.ncbi.nlm.nih.gov/24855271/
+STRING Database
+https://string-db.org/
+
+IntAct Molecular Interaction Database
+https://www.ebi.ac.uk/intact/
+
