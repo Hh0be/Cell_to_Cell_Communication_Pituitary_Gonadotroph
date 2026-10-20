@@ -71,7 +71,7 @@ The findings support the proposed endocrine communication model between pituitar
 
 ### Screenshot: OmniPath Evidence
 
-![OmniPath Evidence](FSHB-(P01225)-→-FSHR-(P23945).png)
+![FSHB-(P01225)-→-FSHR-(P23945)](FSHB-(P01225)-→-FSHR-(P23945).png)
 * * *
 
 # 6\. STRING Network Interpretation
