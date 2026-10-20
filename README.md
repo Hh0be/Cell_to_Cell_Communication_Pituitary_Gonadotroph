@@ -100,11 +100,11 @@ The precise contribution of individual adenylyl cyclase isoforms and downstream 
 
 ### Screenshot: STRING Network
 
-![STRING Network](STRING-Network-Evidence-1.png)
+![STRING Network Evidence 1](STRING-Network-Evidence-1.png)
 
 ### Screenshot: STRING Enrichment
 
-![STRING Enrichment](STRING-Network-Evidence-2.png)
+![STRING Enrichment Evidence 2](STRING-Network-Evidence-2.png)
 
 * * *
 
