@@ -1,8 +1,10 @@
 # Cell-to-Cell Communication: Pituitary Gonadotroph Signaling to Ovarian Granulosa Cells
 
-## Biological Question
+# Student Information 
+Name: Hobe Palopalo, BSBIO-III  
+Course/Section: Cell and Molecular Biology - A  
 
-How does a pituitary gonadotroph communicate with ovarian granulosa cells through Follicle-Stimulating Hormone (FSH) signaling to regulate ovarian follicle development?
+# Biological Question: How does a pituitary gonadotroph communicate with ovarian granulosa cells through Follicle-Stimulating Hormone (FSH) signaling to regulate ovarian follicle development?
 
 * * *
 
