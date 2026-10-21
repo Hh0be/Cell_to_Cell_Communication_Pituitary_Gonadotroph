@@ -71,8 +71,9 @@ The findings support the proposed endocrine communication model between pituitar
 
 ### Screenshot: OmniPath Evidence
 
-![FSHB-(P01225)-→-FSHR-(P23945)](FSHB-(P01225)-→-FSHR-(P23945).png)
-* * *
+![FSHB to FSHR Interaction](FSHB%20%28P01225%29%20%E2%86%92%20FSHR%20%28P23945%29.png)
+
+
 
 # 6\. STRING Network Interpretation
 
@@ -100,11 +101,12 @@ The precise contribution of individual adenylyl cyclase isoforms and downstream 
 
 ### Screenshot: STRING Network
 
-![STRING Network Evidence 1](STRING-Network-Evidence-1.png)
+![STRING Network Evidence 1](STRING%20Network%20Evidence%201.png)
 
 ### Screenshot: STRING Enrichment
 
-![STRING Enrichment Evidence 2](STRING-Network-Evidence-2.png)
+![STRING Enrichment Evidence 2](STRING%20Network%20Evidence%202.png)
+
 
 * * *
 
@@ -128,9 +130,8 @@ This interaction is relevant to understanding the regulation of PKA signaling do
 
 ### Screenshot: IntAct Evidence
 
-![IntAct Evidence](IntAct-Evidence.png)
+![IntAct Evidence](IntAct%20Evidence.png)
 
-* * *
 
 # 8\. Answers to Required Questions
 
